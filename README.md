@@ -46,7 +46,7 @@ bash
 ```
 apt update && apt upgrade 
 apt install proot git wget
-git clone https://github.com/mhmoud-jma/TermuKali
+git clone https://github.com/mhmoudjma/TermuKali
 cd TermuKali
 chmod +x install.sh
 bash install.sh
