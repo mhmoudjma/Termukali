@@ -23,7 +23,7 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 - `kali.sh` → Automates Kali installation (method-based)
 - Tool installation logic embedded inside menu script
 - **T.DROP** → Custom Red Team tool from this repo  
-  → [T.DROP GitHub](https://github.com/mhmoud-jma/T.DROP)
+  → [T.DROP GitHub](https://github.com/mhmoudjma/T.DROP)
 
 ---
 
@@ -32,7 +32,7 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 ### 🔹 Main Menu
 ![Main Menu](photos/Interface.jpg)
 ### 🔹 Run Kali
-![Run Kali](https://github.com/mhmoud-jma/Install.kali/blob/main/Termux%202.jpg)
+![Run Kali](http)
 
 For more screenshots, see the [Commits & Changes](https://github.com/mhmoud-jma/Install.kali/commit/26a59c70124f2e2844666f2b29e58fae783046a3#diff-58916ba9f6962785eaba9773a9a50145633cd8917b32a5c87f80e1440f9343f7)
 
@@ -104,7 +104,7 @@ And clone phishing tools manually:
 git clone https://github.com/htr-tech/zphisher
 git clone https://github.com/DarkSecDevelopers/HiddenEye
 git clone https://github.com/UndeadSec/SocialFish
-git clone https://github.com/mhmoud-jma/T.DROP
+git clone https://github.com/mhmoudjma/T.DROP
 ```
 
 ---
