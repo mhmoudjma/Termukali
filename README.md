@@ -174,7 +174,7 @@ This project was previously hosted under a different GitHub account. Due to secu
 
 Development will continue as normal in this repository. Thank you for your support!
 
-— Zizo (mhmoud0jma)
+— (mhmoudjma)
 ---
 
 👨‍💻 Author
