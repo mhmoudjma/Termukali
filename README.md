@@ -179,7 +179,7 @@ Development will continue as normal in this repository. Thank you for your suppo
 
 👨‍💻 Author
 
-MahmoudJma
+MhmoudJma
 Red Team enthusiast & cybersecurity student
 GitHub: @mhmoudjma
 
