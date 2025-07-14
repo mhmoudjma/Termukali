@@ -167,7 +167,14 @@ A new name has been recently adopted, which is: (Install.kali → TermuKali)
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
+---
+⚠️ **Project Migration Notice**
 
+This project was previously hosted under a different GitHub account. Due to security and privacy reasons, it has been moved here. As a result, the stars and traffic stats (clones/views) have been reset. 
+
+Development will continue as normal in this repository. Thank you for your support!
+
+— Zizo (mhmoud0jma)
 ---
 
 👨‍💻 Author
