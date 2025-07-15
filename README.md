@@ -60,7 +60,7 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 827C8569F2518CC677FECA1
 chmod +x install.sh
 bash install.sh
 ```
-
+**Image to help you(https://github.com/mhmoudjma/Termukali/blob/b26cdebe107cd2b56b7cdbadc61cfcc7adf9516e/photo/Rum_commands.jpg)
 ---
 
 🧰 Available Tools
