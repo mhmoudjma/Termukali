@@ -34,7 +34,7 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 ### 🔹 Run Kali
 ![Run Kali](http)
 
-For more screenshots, see the [Commits & Changes](https://github.com/mhmoud-jma/Install.kali/commit/26a59c70124f2e2844666f2b29e58fae783046a3#diff-58916ba9f6962785eaba9773a9a50145633cd8917b32a5c87f80e1440f9343f7)
+For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/photo)
 
 ---
 
@@ -87,7 +87,7 @@ zphisher, HiddenEye, SocialFish
 
 Extras:
 
-T.DROP → https://github.com/mhmoud-jma/T.DROP
+T.DROP → https://github.com/mhmoudjma/T.DROP
 
 
 ---
