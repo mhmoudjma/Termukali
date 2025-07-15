@@ -32,7 +32,7 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 ### 🔹 Main Menu
 ![Main Menu](https://github.com/mhmoudjma/Termukali/blob/main/photo/Main%20Menu.jpg)
 ### 🔹 Run Kali
-![Run Kali](http)
+![Run Kali](https://github.com/mhmoudjma/Termukali/blob/main/photo/Run%20Kali.jpg)
 
 For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/photo)
 
