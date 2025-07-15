@@ -30,7 +30,7 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 ## 📸 Screenshots
 
 ### 🔹 Main Menu
-![Main Menu](photos/Interface.jpg)
+![Main Menu](https://github.com/mhmoudjma/Termukali/blob/main/photo/Main%20Menu.jpg)
 ### 🔹 Run Kali
 ![Run Kali](http)
 
