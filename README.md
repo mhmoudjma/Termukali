@@ -27,14 +27,6 @@ A powerful and ready-to-use Kali Linux installer for Termux, featuring essential
 
 ---
 
-## 📸 Screenshots
-
-### 🔹 Main Menu
-![Main Menu](https://github.com/mhmoudjma/Termukali/blob/main/photo/Main%20Menu.jpg)
-### 🔹 Run Kali
-![Run Kali](https://github.com/mhmoudjma/Termukali/blob/main/photo/Run%20Kali.jpg)
-
-For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/photo)
 
 ---
 
@@ -61,9 +53,10 @@ bash install.sh
 wget https://archive.kali.org/archive-key.asc -O kali-key.asc
 apt-key add kali-key.asc
 ```
-If the problem still exists, which is a low probability, see issue 8. ![issue 8] (https://github.com/mhmoudjma/Termukali/issues/8)
-#Image to help you
-![Run_comands](https://github.com/mhmoudjma/Termukali/blob/b26cdebe107cd2b56b7cdbadc61cfcc7adf9516e/photo/Rum_commands.jpg)
+If the problem still exists, which is a low probability, see issue 8. 
+![issue 8] (https://github.com/mhmoudjma/Termukali/issues/8)
+
+
 ---
 
 🧰 Available Tools
@@ -109,6 +102,23 @@ git clone https://github.com/DarkSecDevelopers/HiddenEye
 git clone https://github.com/UndeadSec/SocialFish
 git clone https://github.com/mhmoudjma/T.DROP
 ```
+---
+
+## 📸 Screenshots
+
+### 🔹 Main Menu
+![Main Menu](https://github.com/mhmoudjma/Termukali/blob/main/photo/Main%20Menu.jpg)
+### 🔹 Run Kali
+![Run Kali](https://github.com/mhmoudjma/Termukali/blob/main/photo/Run%20Kali.jpg)
+### 🔹 Run commands
+![Run_comands](https://github.com/mhmoudjma/Termukali/blob/b26cdebe107cd2b56b7cdbadc61cfcc7adf9516e/photo/Rum_commands.jpg)
+
+For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/phot
+o)
+
+
+
+
 
 ---
 
