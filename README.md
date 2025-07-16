@@ -51,16 +51,18 @@ cd TermuKali
 chmod +x install.sh
 bash install.sh
 ```
-1.1 You may have a problem with the key.
-```
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 827C8569F2518CC677FECA1AED65462EC8D5E4C5
-```
 2. Run the Installer Menu Manually
 ```
 chmod +x install.sh
 bash install.sh
 ```
-**Image to help you
+3. You may have a problem with the key. "Inside the Kali Environment"
+```
+wget https://archive.kali.org/archive-key.asc -O kali-key.asc
+apt-key add kali-key.asc
+```
+If the problem still exists, which is a low probability, see issue 8. ![issue 8] (https://github.com/mhmoudjma/Termukali/issues/8)
+#Image to help you
 ![Run_comands](https://github.com/mhmoudjma/Termukali/blob/b26cdebe107cd2b56b7cdbadc61cfcc7adf9516e/photo/Rum_commands.jpg)
 ---
 
