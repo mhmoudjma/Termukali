@@ -112,8 +112,7 @@ git clone https://github.com/mhmoudjma/T.DROP
 ### 🔹 Run commands
 ![Run_comands](https://github.com/mhmoudjma/Termukali/blob/b26cdebe107cd2b56b7cdbadc61cfcc7adf9516e/photo/Rum_commands.jpg)
 
-For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/phot
-o)
+For more screenshots, see the [Commits & Changes](https://github.com/mhmoudjma/Termukali/tree/main/photo)
 
 
 
