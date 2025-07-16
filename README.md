@@ -53,8 +53,7 @@ bash install.sh
 wget https://archive.kali.org/archive-key.asc -O kali-key.asc
 apt-key add kali-key.asc
 ```
-If the problem still exists, which is a low probability, see issue 8. 
-![issue 8] (https://github.com/mhmoudjma/Termukali/issues/8)
+If the problem still exists, which is a low probability, see issue 8. (https://github.com/mhmoudjma/Termukali/issues/8)
 
 
 ---
