@@ -12,8 +12,7 @@ while true; do
     echo "===================================="
     echo "1. Install Kali (Method 1) Andronix "
     echo "2. Install Kali (Method 2) AnLinux "
-    echo "3. Install     # Method 3: Install Debian-Termux and convert to Kali
-             (Method 3)"
+    echo "3. Install  (Method 3)  Debian "
     echo "4. Install Kali (Nethunter) Preferably"
     echo "5. Show Available Tools"
     echo "6. Install Tools inside Kali"
