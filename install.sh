@@ -10,30 +10,31 @@ while true; do
     # Display the main menu
     echo "Kali Linux Installer Menu"
     echo "===================================="
-    echo "1. Install Kali (Method 1)"
-    echo "2. Install Kali (Method 2)"
-    echo "3. Install Kali (Method 3)"
+    echo "1. Install Kali (Method 1) Andronix "
+    echo "2. Install Kali (Method 2) AnLinux "
+    echo "3. Install     # Method 3: Install Debian-Termux and convert to Kali
+             (Method 3)"
     echo "4. Install Kali (Nethunter) Preferably"
     echo "5. Show Available Tools"
     echo "6. Install Tools inside Kali"
     echo "7. Support Project (Give a Star ⭐)"
     echo "8. Exit"
     echo "===================================="
-    
+
     # Prompt user for input
     read -p "Choose an option: " option
 
     case $option in
-        1)
-            # Method 1: Install Kali from Andronix
+        1)# Method 1: Install Kali from Andronix
+     
             pkg install wget -y
             wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Kali/kali.sh
             chmod +x kali.sh
             ./kali.sh
             ;;
 
-        2)
-            # Method 2: Install Kali from AnLinux
+        2)   # Method 2: Install Kali from AnLinux
+       
             pkg update && pkg upgrade -y
             pkg install wget proot tar -y
             wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh
@@ -41,8 +42,8 @@ while true; do
             ./kali.sh
             ;;
 
-        3)
-            # Method 3: Install Debian-Termux and convert to Kali
+        3)    # Method 3: Install Debian-Termux and convert to Kali
+            
             pkg install git proot wget -y
             git clone https://github.com/MFDGaming/Debian-Termux
             cd Debian-Termux || exit
@@ -50,7 +51,7 @@ while true; do
             cd ..
             ;;
 
-        4)
+        4) 
             # Install Kali NetHunter
             pkg update -y && pkg upgrade -y
             pkg install git wget proot -y
@@ -62,8 +63,7 @@ while true; do
             echo "./kalinethunter"
             ;;
 
-        5)
-            # Display a list of available tools
+        5)   # Display a list of available tools
             echo ""
             echo "Available Tools:"
             echo "- nmap"
@@ -88,57 +88,48 @@ while true; do
             read -p "Press Enter to return to menu..."
             ;;
 
-        6)
+        6) 
             # Install tools inside an existing Kali environment
+         # Open GitHub project page for support
+
             echo "Installing tools inside Kali..."
 
-            proot-distro login root -- bash -c "apt update && apt install -y nmap whois dnsutils net-tools whatweb nikto wafw00f theharvester recon-ng amass sqlmap metasploit-framework hydra john crunch"
+            if [ ! -f ./start-kali.sh ]; then
+                echo "❌ Error: Kali is not installed or start-kali.sh is missing."
+                read -p "Press Enter to return to menu..."
+                continue
+            fi
+
+            TOOLS_COMMANDS="apt update && apt upgrade -y && \
+apt install -y nmap whois dnsutils net-tools whatweb nikto wafw00f theharvester recon-ng amass sqlmap metasploit-framework hydra john crunch"
+
+            echo "$TOOLS_COMMANDS" | ./start-kali.sh
 
             if [ $? -ne 0 ]; then
-                # Handle installation error
                 echo ""
-                echo "❌ Error: Kali Linux not found or not installed."
-                echo "🔧 Please install Kali first using one of the options (1, 2, or 3) before running this step."
-                echo "📦 You can install the tools manually inside Kali using:"
-                echo ""
-                echo "sudo apt install -y nmap whois dnsutils net-tools whatweb nikto wafw00f theharvester recon-ng amass sqlmap metasploit-framework hydra john crunch"
-                echo ""
-                echo "🌐 Tool References:"
-                echo "- T.DROP => https://github.com/mhmoud-jma/T.DROP"
-                echo "- Zphisher => https://github.com/htr-tech/zphisher"
-                echo "- HiddenEye => https://github.com/DarkSecDevelopers/HiddenEye"
-                echo "- SocialFish => https://github.com/UndeadSec/SocialFish"
-                echo ""
-                read -p "Press Enter to return to menu..."
+                echo "❌ Error: Failed to install tools. Make sure Kali is working properly."
             else
                 echo ""
                 echo "✅ Tools installed successfully inside Kali."
-                echo ""
-                echo "🌐 Tool References (for manual use or updates):"
-                echo "- T.DROP => https://github.com/mhmoud-jma/T.DROP"
-                echo "- Zphisher => https://github.com/htr-tech/zphisher"
-                echo "- HiddenEye => https://github.com/DarkSecDevelopers/HiddenEye"
-                echo "- SocialFish => https://github.com/UndeadSec/SocialFish"
-                echo ""
-                echo "ℹ️ You can also install/update them manually later inside Kali."
-                read -p "Press Enter to continue..."
             fi
+
+            read -p "Press Enter to return to menu..."
             ;;
 
-        7)
-            # Open GitHub project page for support
+
+
+
+        7) # Open GitHub project page for support
             echo "Thanks for your support! Opening project page..."
             termux-open-url https://github.com/mhmoud-jma/Install.kali
             ;;
 
-        8)
-            # Exit the script
+        8)  # Exit the script
             echo "Exiting..."
             exit 0
             ;;
 
         *)
-            # Handle invalid input
             echo "Invalid option. Please try again."
             sleep 1
             ;;
