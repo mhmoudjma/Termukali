@@ -162,10 +162,10 @@ If you find this project helpful, please consider giving it a ⭐ on GitHub:
 
 A new name has been recently adopted, which is: (Install.kali → TermuKali)
 ---
-📈 **Project Stats (As of 2025-07-14)**
+📈 **Project Stats (As of 2025-07-28)**
 
-- ✅ 175+ unique clones in just 16 days since launch!
-- 📥 Over 230+ total clones so far.
+- ✅ 215+ unique clones in just 28 days since launch!
+- 📥 Over 275+ total clones so far.
 - 🛠️ 8 Issues opened and successfully resolved.
 - 🔄 4 versions released with ongoing updates.
 - 🔐 Security enhancements implemented for safer usage.
